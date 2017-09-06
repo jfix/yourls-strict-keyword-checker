@@ -1,7 +1,7 @@
 Strict keyword checker
 ======================
 
-Plugin for [YOURLS](http://yourls.org) `1.0.0`.
+Plugin for [YOURLS](http://yourls.org) `1.7` (not tested for previous versions).
 
 Description
 -----------
