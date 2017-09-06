@@ -11,4 +11,9 @@ Author URI: https://github.com/jfix
 // No direct call
 if( !defined( 'YOURLS_ABSPATH' ) ) die();
 
-// now I just have to write the code ....
+yourls_add_filter( 'shunt_add_new_link', 'strict_check_keyword' );
+
+function strict_check_keyword( $original_keyword ) {
+  // now I just have to write the code ....
+
+}
